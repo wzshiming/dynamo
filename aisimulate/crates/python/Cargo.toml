@@ -22,6 +22,6 @@ extension-module = ["pyo3/extension-module"]
 [dependencies]
 aisimulate-core = { workspace = true }
 anyhow = { workspace = true }
-pyo3 = { version = "0.23.4", features = ["abi3-py310"] }
+pyo3 = { version = "0.29.0", features = ["abi3-py310"] }
 serde = { workspace = true }
 serde_json = { workspace = true }
